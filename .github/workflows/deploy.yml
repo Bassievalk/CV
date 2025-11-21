@@ -37,7 +37,10 @@ jobs:
         run: |
           mkdir -p dist
           cp index.html dist/index.html
+<<<<<<< HEAD
           cp output.css dist/output.css
+=======
+>>>>>>> eca5a4f0a152175aa9ad76401b6edead5f7c894a
           cp -r assets dist/assets
 
       - name: Upload site artifact
